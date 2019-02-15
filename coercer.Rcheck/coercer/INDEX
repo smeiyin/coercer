@@ -1,0 +1,4 @@
+intofact                Turn multiple columns in a dataframe into
+                        factors
+intonum                 Turn multiple columns in a dataframe into
+                        numeric
