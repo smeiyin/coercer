@@ -2,7 +2,7 @@
 % Please edit documentation in R/intonum_function.R
 \name{intonum}
 \alias{intonum}
-\title{Turn multiple columns in a dataframe into numeric}
+\title{Turn multiple variables into numeric ones}
 \usage{
 intonum(df, columns)
 }
@@ -12,8 +12,8 @@ intonum(df, columns)
 \item{columns}{Numeric vector}
 }
 \value{
-new structure of data frame
+New structure of data frame
 }
 \description{
-More detailed description.
+More detailed description
 }

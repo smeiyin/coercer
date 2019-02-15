@@ -1,4 +1,4 @@
-#' Turn multiple variables into numeric factors
+#' Turn multiple variables into character vectors
 #'
 #' More detailed description
 #'
@@ -8,9 +8,9 @@
 #' @return New structure of data frame
 #'
 #' @export
-intofact <- function(df, columns){
+intochar <- function(df, columns){
   for (i in columns){
-    df[, i] <- as.factor(df[, i])
+    df[, i] <- as.character(df[, i])
   }
   return(str(df))
 }
