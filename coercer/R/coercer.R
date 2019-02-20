@@ -8,5 +8,5 @@
 #' \code{\link{intofact}}, and \code{\link{intochar}}
 #'
 #' @docType package
-#' @name coercer-package
+#' @name coercer
 NULL
