@@ -12,6 +12,11 @@ Three coercer functions
 
 This package contains several functions to convert multiple variables to
 either numeric, factors or characters at once: see \code{\link{intonum}},
-\code{\link{intofact}}, and \code{\link{intochar}}
+\code{\link{intofact}}, and \code{\link{intochar}}.
+}
+
+\section{Usage}{
+
+intonum(df = data, columns = c(1, 16:20))
 }
 
