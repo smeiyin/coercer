@@ -8,7 +8,7 @@
 #' \code{\link{intofact}}, and \code{\link{intochar}}.
 #'
 #' @docType package
-#' @name coercer
+#' @name coercer-package
 #'
 #' @section Usage:
 #' intonum(df = data, columns = c(1, 16:20))
